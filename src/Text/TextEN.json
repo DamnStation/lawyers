@@ -1,0 +1,53 @@
+{
+  "EN": {
+    "Links": [
+      { "title": "About Us", "path": "/" },
+      { "title": "Business Areas", "path": "/legalservices" },
+      { "title": "News and publications", "path": "/about" },
+      { "title": "Contacts", "path": "/contacts" }
+    ],
+
+    "HomeTab": [
+      {
+        "title1": "„Money and Partners”",
+        "content1": "is a law firm uniting the activities of the two managing partners - lawyer Ivan Todorov Groshev and lawyer Gina Ivanova Grosheva.",
+        "content2": "The team of Groshev & Partners Law Firm specializes in various areas of law.",
+        "content3": "The managing partner - lawyer Ivan Groshev, is a specialist in the field of criminal law with more than 27 years of experience, of which 21 as a lawyer, and lawyer Gina Grosheva is a specialist in the field of public, civil law and procedure, in particular in property law, contract law, commercial law, banking law and insurance law. ",
+        "content4": "The law firm has significant experience in out-of-court and judicial debt collection, as well as bankruptcy proceedings. A number of non-bank financial institutions, leasing companies and investment banks have trusted our experience and professionalism.",
+        "content5": "Our team also has experience in advising investors on the construction of office and residential buildings, as well as legal assistance and assistance in the sale of third parties to individual properties.",
+        "content6": "Each of the lawyers is a well-established professional - with extensive and long-term experience in the field of law, in which he specializes and excellent experience in procedural representation.",
+        "content7": "With the high professionalism of its team, the company fully meets the requirements of its customers for efficiency, effectiveness, expert and comprehensive service."
+      }
+    ],
+    "LegalServices": [
+      {
+        "title1": "Commercial Law and Bankruptcy.",
+        "content1_1": "Our team advises clients in all aspects of commercial law.",
+        "content1_2": "Preparation of documents for registration of companies, incorporation of civil companies, transfer and restructuring of companies, including acquisitions, mergers and divisions of companies, consultations on consortium agreements, as well as sale of business, approval procedures by regulators - CPC, BNB, FSC and others if necessary. We offer consulting and assistance in holding general meetings of companies and for resolving disputes between partners, shareholders and companies. ",
+        "content1_3": "The company's team has experience in preparing legal assessments and analyzes of both non-bank financial institutions and banks.",
+
+        "title2": "Commercial Transactions",
+        "content2_1": "Our team has extensive experience in consulting on commercial transactions and drafting commercial contracts and bills of exchange. We provide assistance and advice in concluding commercial transactions and contracts.",
+
+        "title3": "Property law and real estate",
+        "content3_1": "Groshev & Partners Law Firm provides procedural representation in cases involving property rights or limited real rights over real estate, division of real estate, impaired possession, border disputes, etc.",
+        "content3_2": "The company consults real estate transactions for residential needs, for hotels, office and commercial areas, industrial land, agricultural land and others.",
+        "content3_3": "Our team conducts in-depth research on: the right of ownership and limited real rights over real estate; urban and cadastral status of the same; the legality of buildings and facilities built in the property; performs inspections for encumbered encumbrances mortgages, claims; checks for rights of the state or municipality over the acquired property; examination of the possibility for acquisition of properties by prescription. ",
+        "content3_4": "Groshev & Partners Law Firm provides consultations and prepares the necessary documents, including, but not limited to, in connection with contracts necessary for the sale, donation, design and construction of real estate; commissioning of buildings and facilities; ",
+        "content3_5": "Our team represents in negotiations with banks or other institutions financing real estate transactions.",
+        "content3_6": "https://dp-lawfirm.com/real-law-and-real-properties"
+      }
+    ],
+
+    "Contacts": [
+      {
+        "tab1": "Address:",
+        "tab2": "Call us:",
+        "tab3": "Write us:",
+        "contacts1": "Bulgaria, Sofia 1000, 100 Knyaz Boris I str., 3rd floor, apartment 8",
+        "contacts2": "tel. 02 981 9687",
+        "contacts3": "e-mail: office@legalbg.net"
+      }
+    ]
+  }
+}
