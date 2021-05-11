@@ -21,3 +21,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/Components/Pages/API_KEY/API_KEYS.json
+src/API_KEY/API_KEYS.json

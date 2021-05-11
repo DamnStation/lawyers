@@ -1,9 +1,9 @@
 import { Container, makeStyles, Paper } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
-// import Iframe from "react-iframe";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import URL_API_KEY from "../../../API_KEY/API_KEYS.json";
 
 const useStyles = makeStyles({
   WrapperStyle: {
@@ -29,8 +29,7 @@ function About() {
 
   const [blogs, setBlogs] = useState([]);
 
-  const URL =
-    "https://www.googleapis.com/blogger/v3/blogs/947014603563891833/posts?key=AIzaSyBgkLFCrm5n83GX5nE8iZ0KBubpkHJh3bc";
+  const URL = URL_API_KEY.API_KEY.Blogger.Key;
 
   useEffect(() => {
     const fetchData = async () => {

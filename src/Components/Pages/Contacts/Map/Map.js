@@ -1,35 +1,6 @@
-// { key: `AIzaSyAOIgMtAnr0mZKCyTXFvowSesUVtkui7po` }
-// import React from "react";
-// import GoogleMapReact from "google-map-react";
-// const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-// function Map() {
-//   const defaultProps = {
-//     center: {
-//       lat: 42.69437,
-//       lng: 23.31828,
-//     },
-//     zoom: 18,
-//   };
-
-//   return (
-//     // Important! Always set the container height explicitly
-//     <div style={{ height: "51vh", width: "100%" }}>
-//       <GoogleMapReact
-//         bootstrapURLKeys={{ key: `AIzaSyAOIgMtAnr0mZKCyTXFvowSesUVtkui7po` }}
-//         defaultCenter={defaultProps.center}
-//         defaultZoom={defaultProps.zoom}
-//         yesIWantToUseGoogleMapApiInternals={true}
-//       >
-//         <AnyReactComponent lat={42.69437} lng={23.31828} text="My Marker" />
-//       </GoogleMapReact>
-//     </div>
-//   );
-// }
-
-// export default Map;
 import React, { useState, useCallback } from "react";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
+import API_KEY from "../../../../API_KEY/API_KEYS.json";
 
 const containerStyle = {
   width: "850px",
@@ -44,7 +15,7 @@ const center = {
 function MapComponent() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyAOIgMtAnr0mZKCyTXFvowSesUVtkui7po",
+    googleMapsApiKey: API_KEY.API_KEY.GoogleMaps.Key,
   });
 
   const [map, setMap] = useState(null);
