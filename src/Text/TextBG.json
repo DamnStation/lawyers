@@ -3,7 +3,7 @@
     "Links": [
       { "title": "За нас", "path": "/" },
       { "title": "Сфери на дейност", "path": "/legalservices" },
-      { "title": "Новини и публикации", "path": "/about" },
+      { "title": "Новини и публикации", "path": "/news" },
       { "title": "Контакти", "path": "/contacts" }
     ],
 

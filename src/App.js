@@ -5,7 +5,7 @@ import Home from "./Components/Pages/Home/HomeContent/HomeIndex/Home";
 import Contacts from "./Components/Pages/Contacts/Contacts";
 import Partners from "./Components/Pages/Partners/Partners";
 import LegalServices from "./Components/Pages/LegalServices/LegalServices";
-import About from "./Components/Pages/About/About";
+import News from "./Components/Pages/News/News";
 import Footer from "./Components/Nav/Footer/Footer";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import { Container } from "@material-ui/core";
@@ -77,7 +77,7 @@ function App() {
                 <Route path="/Contacts" component={Contacts} />
                 <Route path="/Partners" component={Partners} />
                 <Route path="/LegalServices" component={LegalServices} />
-                <Route path="/About" component={About} />
+                <Route path="/News" component={News} />
               </Switch>
             </Container>
             <Footer />

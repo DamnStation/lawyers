@@ -24,7 +24,7 @@ const useStyles = makeStyles({
   },
 });
 
-function About() {
+function News() {
   const classes = useStyles();
 
   const [blogs, setBlogs] = useState([]);
@@ -75,4 +75,4 @@ function About() {
   );
 }
 
-export default About;
+export default News;
