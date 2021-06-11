@@ -3,7 +3,7 @@
     "Links": [
       { "title": "About Us", "path": "/" },
       { "title": "Business Areas", "path": "/legalservices" },
-      { "title": "News and publications", "path": "/about" },
+      { "title": "News and publications", "path": "/news" },
       { "title": "Contacts", "path": "/contacts" }
     ],
 
