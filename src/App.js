@@ -12,6 +12,7 @@ import { Container } from "@material-ui/core";
 import LanguageContext from "./Components/Functions/Context/LanguageContext";
 import TextBG from "./Text/TextBG.json";
 import TextEN from "./Text/TextEN.json";
+import Test from "./Components/Pages/Test/Test";
 
 const initialState = TextBG.BG;
 const reducer = (state, action) => {
@@ -78,6 +79,7 @@ function App() {
                 <Route path="/Partners" component={Partners} />
                 <Route path="/LegalServices" component={LegalServices} />
                 <Route path="/News" component={News} />
+                <Route path="/Test" component={Test} />
               </Switch>
             </Container>
             <Footer />

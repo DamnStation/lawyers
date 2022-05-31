@@ -29,7 +29,7 @@ function LegalServices() {
           </Typography>
           <Divider />
           <Typography draggable={true} paragraph={true} variant="h5">
-             {item.title2}
+            {item.title2}
           </Typography>
           <Typography draggable={true} paragraph={true} variant="overline">
             {item.content2_1}
