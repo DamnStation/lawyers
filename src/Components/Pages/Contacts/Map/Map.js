@@ -39,7 +39,7 @@ function MapComponent() {
       onUnmount={onUnmount}
     >
       {/* Child components, such as markers, info windows, etc. */}
-      <></>
+      <Marker position={center} />
     </GoogleMap>
   ) : (
     <></>
